@@ -1,5 +1,6 @@
 # Morning Recovery
-     [ppt.pdf](https://github.com/w0-0n9/MorningRecovery/files/13596466/ppt.pdf)
+<img width="798" alt="Screenshot 2023-12-07 at 12 45 37 AM" src="https://github.com/w0-0n9/MorningRecovery/assets/97860391/61c08556-9efc-4acb-bf82-7e0f22208373">
+
 
 ## Team Members
 
