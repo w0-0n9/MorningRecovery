@@ -1,4 +1,13 @@
 # Morning Recovery
+<com.denzcoskun.imageslider.ImageSlider    
+     android:id="@+id/image_slider"    
+     android:layout_width="wrap_content"    
+     android:layout_height="300dp"    
+     app:iss_auto_cycle="true"    
+     app:iss_period="1000"    
+     app:iss_delay="1000"    
+     app:iss_text_align="CENTER"/>
+     
 ![2](https://github.com/w0-0n9/MorningRecovery/assets/97860391/4fec625b-1832-446b-b562-7f6a46cf0371)
 
 
