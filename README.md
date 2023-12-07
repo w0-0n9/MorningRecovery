@@ -1,8 +1,5 @@
 # Morning Recovery
      
-![2](https://github.com/w0-0n9/MorningRecovery/assets/97860391/4fec625b-1832-446b-b562-7f6a46cf0371)
-
-
 ## Team Members
 
 - Heewon Kim, [hkim936@wisc.edu](mailto:hkim936@wisc.edu), [GitHub: keemeeone](https://github.com/keemeeone)
