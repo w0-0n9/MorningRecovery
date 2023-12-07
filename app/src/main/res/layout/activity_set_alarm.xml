@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Top Cancel and Save Texts -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- "Add Alarm" Text centered between Cancel and Save -->
+    <TextView
+        android:id="@+id/tv_add_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Alarm"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_save"
+        app:layout_constraintEnd_toStartOf="@+id/btn_save"
+        app:layout_constraintStart_toEndOf="@+id/btn_cancel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#D0D0D0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_save"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Time Setting Label -->
+    <TextView
+        android:id="@+id/tv_time_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Time Setting"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <!-- Time Setting Dropdowns -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contextClickable="false"
+        android:dropDownWidth="match_parent"
+        android:minWidth="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_time_setting" />
+
+    <TextView
+        android:id="@+id/colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_hours"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_minutes"
+        app:layout_constraintStart_toEndOf="@+id/spinner_hours" />
+
+    <Spinner
+        android:id="@+id/spinner_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:minWidth="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_hours"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_am_pm"
+        app:layout_constraintStart_toEndOf="@+id/colon" />
+
+    <Spinner
+        android:id="@+id/spinner_am_pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:dropDownWidth="match_parent"
+        android:minWidth="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_hours"
+        app:layout_constraintStart_toEndOf="@+id/spinner_minutes" />
+
+    <!-- Quiz Type -->
+    <TextView
+        android:id="@+id/tv_quiz_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Quiz Type"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_hours" />
+
+    <Spinner
+        android:id="@+id/spinner_quiz_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:dropDownWidth="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quiz_type" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
