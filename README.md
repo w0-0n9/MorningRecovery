@@ -1,5 +1,6 @@
 # Morning Recovery
-     
+     [ppt.pdf](https://github.com/w0-0n9/MorningRecovery/files/13596466/ppt.pdf)
+
 ## Team Members
 
 - Heewon Kim, [hkim936@wisc.edu](mailto:hkim936@wisc.edu), [GitHub: keemeeone](https://github.com/keemeeone)
