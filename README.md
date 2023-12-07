@@ -21,6 +21,9 @@
 
 3. **Daily Famous Quote:** After successfully solving the math problems, users are rewarded with a famous daily quote for inspiration.
 
+## Real App Operations
+YouTube Link: https://youtu.be/yqETki5AcOU?feature=shared
+
 ### Your Competition
 
 Some similar apps in the market include "Math Alarm Clock" and "Puzzle Alarm Clock." While these apps are effective, our app distinguishes itself with a user-friendly and visually appealing design, customizable challenges, and the daily famous quote feature, providing a more engaging and refreshing wake-up experience.
